@@ -1,14 +1,28 @@
+# Programmers: Jack Berk, Justine Roybal, Alexandra Fernandez
+# CS 151
+# Lab 7
+
 #Functions's purpose: read in a file name from the user and return it once they give one that exists
+1. define a function with no parameters that obtains user input for the variable file_name.
+2. if file_Notfound = True, enter while loop which continues asking user for file_name input until file_Notfound = False.
+3. Return file_name once file_Notfound = False.
 #Parameters: None
 #Return: file name
 
 
-k
+
 
 #Function's purpose: Process the file
 #Parameters: file name of file to read from
 #Return: The maximum profit
-
+1. define a function with the parameter file_name.
+2. open file_name for reading.
+3. set max_profit = 0, then use for loop to read each line of file_name and separate the movie info with: movie_info = "release_date, title, budget, boxoffice_gross"
+then: release_date, title, budget, boxoffice_gross = movie_info.split(",").
+4. profit = boxoffice_gross - budget
+5. if profit > max_profit:
+     max_profit = profit
+6. return max_profit
 
 
 
