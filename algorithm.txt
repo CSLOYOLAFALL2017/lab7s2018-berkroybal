@@ -12,6 +12,7 @@
 
 
 
+
 #Function's purpose: Process the file
 #Parameters: file name of file to read from
 #Return: The maximum profit
@@ -28,11 +29,23 @@ then: release_date, title, budget, boxoffice_gross = movie_info.split(",").
 
 #Function's purpose: Process the file
 #Parameters: file name of file to read from, file name of file to write to
-#Return: None
-
-
+1. define a function named info_file with the parameter file_name
+2. open the file for reading
+3. have user input the file name to save movie info to
+4. then open the file for writing
+5. create a for loop that uses, "release_date, title, budget, boxoffice_gross = line.split(",")""
+5. make boxoffice_gross a float
+6. make budge a float
+7. print to file the release date, title, profit,
 
 
 #Function's purpose: main
 #Parameters: None
+1. define a function named main
+2. set the movie_file_input equal to the file_name_input()
+3. set max_profit equal to max(movie_file_input)
+4. create a print function that output the max_profit
+5. then set the movie_info_file equal to info_file(movie_file_input)
 #Return: None
+
+call on main
